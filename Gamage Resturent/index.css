@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+main {
+  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmUzZnRhOTBwOW9laDl6MXJtZGQyYzM2MDFycmtwNmY2ZGdseTV4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JrAtCak37sLisS8qQa/200.webp') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(227, 231, 232);
+}
+
+section {
+  
+  padding: 50px;
+  border-radius: 10px;
+}
+
+section h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #ff7043;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #ff5722;
+   }  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
